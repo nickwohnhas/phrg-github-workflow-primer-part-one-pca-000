@@ -8,7 +8,7 @@ Traditionally, pairing is done on one computer system. However, the navigator in
 
 ## The Pairing Plan
 
-This lesson and the one's that follow will pivot team member responsibilities in the middle its tasks. So, whomever starts as the driver for this project will switch and become the navigator where the lesson specifies. And vice versa.
+This lesson and the ones that follow will pivot team member responsibilities in the middle its tasks. Whomever starts as the driver will switch and become the navigator where the lesson specifies. And vice versa.
 
 So let's begin!
 
@@ -44,7 +44,7 @@ We won't be exploring Markdown in great detail. But it is important to know abou
 
 ## Instructions
 
-* `cd` to a directory of your choice that is a great place to keep your pairing projects
+* `cd` to a directory of your choice that will be a great place to keep your pairing projects
 * Verify the location on your laptop's file system with `pwd`, which stands for "print working directory"
 * Create a new directory called "pairing-projects" with the `mkdir` command
 * `cd` into `pairing-projects`
@@ -76,18 +76,18 @@ We won't be exploring Markdown in great detail. But it is important to know abou
 ![Copy Remote Url](img/copy-remote.png?raw=true "Copy Remote Url")
 
 * In your shell session, add the remote with `git remote add origin <paste-remote-url-here>`. The remote URL will look something like "git@github.com:<your-github-handle>/<name-of-project>.git"
-* And finally push up the files, `git push -u origin master`
+* Finally push up the files with `git push -u origin master`
 
 ### Switch drivers
 
 Complete the next set of instructions on the other pair member's laptop.
 
-* `cd` to a directory of your choice that is a great place to keep your pairing projects
-* Verify the location on your laptop's file system with `pwd`, which stands for "print working directory"
-* Create a new directory called "pairing-projects" with the `mkdir` command
+* `cd` to a directory of your choice that will be a great place to keep your pairing projects
+* Verify the location on your laptop's file system with `pwd`
+* Create a "pairing-projects" directory with the `mkdir` command
 * `cd` into `pairing-projects`
 * In a browser, navigate to your partner's profile page and locate the new repo you just created
-* While on the project page, locate the green "clone or download" button towards the top right corner. Click on this button and verify that it says "Clone with SSH". If not, switch it to ssh. Then click on the clipboard icon to copy the remote url:
+* When on the project page, locate the green "clone or download" button towards the top right corner. Click on this button and verify that it says "Clone with SSH". If not, switch it to ssh. Then click on the clipboard icon to copy the remote url:
 
 ![Copy Clone Url](img/clone-project.png?raw=true "Copy Clone Url")
 
@@ -96,7 +96,7 @@ Complete the next set of instructions on the other pair member's laptop.
 * Open up the codebase in your text editor with `atom .` or `subl .`
 * Verify you can view the blank `index.html` and blank `README.md` files in your text editor.
 
-Next, you are going to create a branch on github. Once you have completed your set of code changes, you will add and commit the work, then create a "Pull Request" (PR) for your partner to merge.
+Next, you are going to create a branch on github. Once you have completed your set of code changes, you will add and commit the work, then create a Pull Request (PR) for your partner to merge.
 
 * Create a git branch off the main `master` branch. Lets name the branch "add-developer-names". Notice that the branch name contains no whitespace. Our command line can not process a name with whitespace because it will think you are passing it a new argument. To create our new branch, run `git checkout -b add-developer-names`
 * Navigate to the `README.md` and add an h1 markdown element with the title "Nitro Developer Bootcamp Students" (check out the Markdown links above to see what this looks like)
@@ -105,14 +105,14 @@ Next, you are going to create a branch on github. Once you have completed your s
 * Commit your changes with `git commit -m "Add developer names to README file"`
 * Push your commit to your branch with `git push origin add-developer-names`
 
-Back to the browser! If all went well, the project page should now be displaying a yellow tinted prompt with a green button that says "Compare & pull request". Go ahead that green button
+Back to the browser! If all went well, the project page should now be displaying a yellow-tinted prompt with a green button that says "Compare & pull request". Press that green button.
 
 ![Pull Request Prompt](img/yellow-tinted-pr-prompt.png?raw=true "Pull Request Prompt")
 
-This will open up a screen that allows you to give your Pull Request (PR) a title and description. Also, you can scroll down to the bottom and see the code additions you have made. Make the PR title "Add Developer Names" if it is not already that and leave the description blank for now. Find the green "Create pull request" button and click it.
+This will open up a screen that allows you to give your Pull Request (PR) a title and description. Also, you can scroll down to the bottom and see the code additions you have made. Make the PR title "Add Developer Names" if it is not already and give it a description of "My first PR description.". Find the green "Create pull request" button and click it.
 
 ![Compare Changes View](img/compare-changes.png?raw=true "Compare Changes View")
 
-Congrats! You both have now not only created your first github repo, you have also created your first PR on that repo. There is only one step left. Merge the Pull Request into the master branch with more click of a green button.
+Congrats! You both have not only created your first github repo, you have also created your first PR on that repo. There is only one last step. Merge the Pull Request into the master branch with one more click of a green button.
 
 ![Pull Request View](img/pull-request.png?raw=true "Pull Request View")
