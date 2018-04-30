@@ -43,3 +43,41 @@ What you see now is Markdown code. No where near as fancy as what you see on Lea
 We won't be exploring Markdown in great detail. But it is important to know about its existance and that it is a handy tool developers use for to quickly create stylized documentation for the web. To investigate more, [check out this Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) or peruse the [Markdown doc pages themselves](https://www.markdownguide.org/basic-syntax).
 
 ## Instructions
+
+* `cd` to a directory of your choice that is a great place to keep your pairing projects
+* Verify the location on your laptop's file system with `pwd`, which stands for "print working directory"
+* Create a new directory called "pairing-projects" with the `mkdir` command
+* `cd` into `pairing-projects`
+* Create another new directory that will match the name of this project. Let's name it "<your_first_name>_and_<your_pair's_first_name>_first_git_project". For example, if Garett Arrowood and Bryan Reed were creating this project together, and Garett was driving, he would run this command: `mkdir garett_and_bryan_first_git_project`
+* `cd` into the new directory
+* In a browser, navigate to your github profile page
+* In the top right corner, click on the "+" icon and select "New repository"
+
+![Create New Repository](img/create-new-repo.png?raw=true "Create New Repository")
+
+* In the next screen, enter the name of your new project under "Repository Name"
+
+![Name New Project](img/name-new-repo.png?raw=true "Name New Project")
+
+* Click the green "Create Repository" button at the bottom of the form
+* Now take a long look at the next screen Github has presented to you. We are going to create a new repository on the command line
+* Shift back to your shell session. You should still be in your new directory. Verify it with `pwd`
+* Create an `index.html` file using the `touch` command
+* Create a `README.md` file using the `touch` command
+* Open your text editor with `atom .` or `subl .`
+* Add an h1 markdown element titled "Nitro Developer Bootcamp Students" to the `README.md`
+* Time to send this up to Github!
+* Return to your shell session and instantialize the repository with `git init`
+* Add your `README.md` file with `git add README.md`
+* Add your blank `index.html` with `git add index.html`
+* Create a commit with a message (`-m`) of "First project commit"
+* Go back to your browser and use the clipboard icon to copy your SSH remote URL. Make sure that SSH is selected. This is where the clopboard icon is:
+
+![Copy Remote Url](img/copy-remote.png?raw=true "Copy Remote Url")
+
+* In your shell session, add the remote with `git remote add origin <paste_remote_url_here>`
+* And finally push up the files, `git push -u origin master`
+
+### Switch drivers
+
+
