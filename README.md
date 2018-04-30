@@ -17,7 +17,7 @@ So let's begin!
 ## Objectives
 
 1. Reinforce basic bash commands like `cd`, `mkdir` and `touch`
-1. Reinforce basic git commands like `init`, `add`, `commit`, and `checkout`
+1. Reinforce basic git commands like `init`, `add`, `commit`, and `push`
 1. Learn how to create and merge Pull Requests on Github
 1. Introduce markup language called `Markdown`
 1. Review html template elements
@@ -64,20 +64,45 @@ We won't be exploring Markdown in great detail. But it is important to know abou
 * Shift back to your shell session. You should still be in your new directory. Verify it with `pwd`
 * Create an `index.html` file using the `touch` command
 * Create a `README.md` file using the `touch` command
-* Open your text editor with `atom .` or `subl .`
-* Add an h1 markdown element titled "Nitro Developer Bootcamp Students" to the `README.md`
-* Time to send this up to Github!
-* Return to your shell session and instantialize the repository with `git init`
-* Add your `README.md` file with `git add README.md`
+
+### Time to send this up to Github!
+
+* Instantialize the new repository with `git init`
+* Add your blank `README.md` file with `git add README.md`
 * Add your blank `index.html` with `git add index.html`
-* Create a commit with a message (`-m`) of "First project commit"
-* Go back to your browser and use the clipboard icon to copy your SSH remote URL. Make sure that SSH is selected. This is where the clopboard icon is:
+* Create a commit with a message (`-m`) of "First commit"
+* Go back to your browser and use the clipboard icon to copy your SSH remote URL. Make sure that SSH is selected. This is where the clipboard icon is:
 
 ![Copy Remote Url](img/copy-remote.png?raw=true "Copy Remote Url")
 
-* In your shell session, add the remote with `git remote add origin <paste_remote_url_here>`
+* In your shell session, add the remote with `git remote add origin <paste-remote-url-here>`. The remote URL will look something like "git@github.com:<your-github-handle>/<name-of-project>.git"
 * And finally push up the files, `git push -u origin master`
 
 ### Switch drivers
 
+Complete the next set of instructions on the other pair member's laptop.
 
+* `cd` to a directory of your choice that is a great place to keep your pairing projects
+* Verify the location on your laptop's file system with `pwd`, which stands for "print working directory"
+* Create a new directory called "pairing-projects" with the `mkdir` command
+* `cd` into `pairing-projects`
+* In a browser, navigate to your partner's profile page and locate the new repo you just created
+* While on the project page, locate the green "clone or download" button towards the top right corner. Click on this button and verify that it says "Clone with SSH". If not, switch it to ssh. Then click on the clipboard icon to copy the remote url:
+
+![Copy Clone Url](img/clone-project.png?raw=true "Copy Clone Url")
+
+* Return to your shell session and clone down the project with `git clone <paste-remote-url-here>`
+* `cd` into the new project folder
+* Open up the codebase in your text editor with `atom .` or `subl .`
+* Verify you can view the blank `index.html` and blank `README.md` files in your text editor.
+
+Next, you are going to create a branch on github. Once you have completed your set of code changes, you will add and commit the work, then create a "Pull Request" (PR) for your partner to merge.
+
+* Create a git branch off the main `master` branch. Lets name the branch "add-developer-names". Notice that the branch name contains no whitespace. Our command line can not process a name with whitespace because it will think you are passing it a new argument. To create our new branch, run `git checkout -b add-developer-names`
+* Navigate to the `README.md` and add an h1 markdown element with the title "Nitro Developer Bootcamp Students" (check out the Markdown links above to see what this looks like)
+* Next, add h2 markdown elements for each of the class participants. Each element should be titled with the first and last name of a Student Developer
+* Stage your changes to the `README.md` with `git add README.md`
+* Commit your changes with `git commit -m "Add developer names to README file"`
+* Push your commit to your branch with `git push origin add-developer-names`
+
+Back to the browser! If all went well, the project page should
