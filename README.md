@@ -105,4 +105,14 @@ Next, you are going to create a branch on github. Once you have completed your s
 * Commit your changes with `git commit -m "Add developer names to README file"`
 * Push your commit to your branch with `git push origin add-developer-names`
 
-Back to the browser! If all went well, the project page should
+Back to the browser! If all went well, the project page should now be displaying a yellow tinted prompt with a green button that says "Compare & pull request". Go ahead that green button
+
+![Pull Request Prompt](img/yellow-tinted-pr-prompt.png?raw=true "Pull Request Prompt")
+
+This will open up a screen that allows you to give your Pull Request (PR) a title and description. Also, you can scroll down to the bottom and see the code additions you have made. Make the PR title "Add Developer Names" if it is not already that and leave the description blank for now. Find the green "Create pull request" button and click it.
+
+![Compare Changes View](img/compare-changes.png?raw=true "Compare Changes View")
+
+Congrats! You both have now not only created your first github repo, you have also created your first PR on that repo. There is only one step left. Merge the Pull Request into the master branch with more click of a green button.
+
+![Pull Request View](img/pull-request.png?raw=true "Pull Request View")
