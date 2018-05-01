@@ -20,7 +20,6 @@ So let's begin!
 1. Reinforce basic git commands like `init`, `add`, `commit`, and `push`
 1. Learn how to create and merge Pull Requests on Github
 1. Introduce markup language called `Markdown`
-1. Review html template elements
 
 ## Introduction to Markdown
 
@@ -62,14 +61,12 @@ We won't be exploring Markdown in great detail. But it is important to know abou
 * Click the green "Create Repository" button at the bottom of the form
 * Now take a long look at the next screen Github has presented to you. We are going to create a new repository on the command line
 * Shift back to your shell session. You should still be in your new directory. Verify it with `pwd`
-* Create an `index.html` file using the `touch` command
 * Create a `README.md` file using the `touch` command
 
 ### Time to send this up to Github!
 
 * Instantialize the new repository with `git init`
 * Add your blank `README.md` file with `git add README.md`
-* Add your blank `index.html` with `git add index.html`
 * Create a commit with a message (`-m`) of "First commit"
 * Go back to your browser and use the clipboard icon to copy your SSH remote URL. Make sure that SSH is selected. This is where the clipboard icon is:
 
@@ -94,7 +91,7 @@ Complete the next set of instructions on the other pair member's laptop.
 * Return to your shell session and clone down the project with `git clone <paste-remote-url-here>`
 * `cd` into the new project folder
 * Open up the codebase in your text editor with `atom .` or `subl .`
-* Verify you can view the blank `index.html` and blank `README.md` files in your text editor.
+* Verify you can view the blank `README.md` files in your text editor.
 
 Next, you are going to create a branch on github. Once you have completed your set of code changes, you will add and commit the work, then create a Pull Request (PR) for your partner to merge.
 
