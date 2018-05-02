@@ -83,17 +83,23 @@ Complete the next set of instructions on the other pair member's laptop.
 * Verify the location on your laptop's file system with `pwd`
 * Create a "pairing-projects" directory with the `mkdir` command
 * `cd` into `pairing-projects`
-* In a browser, navigate to your partner's profile page and locate the new repo you just created
-* When on the project page, locate the green "clone or download" button towards the top right corner. Click on this button and verify that it says "Clone with SSH". If not, switch it to ssh. Then click on the clipboard icon to copy the remote url:
+* In a browser, navigate to your partner's profile page and locate the new repository you just created
+* When on the repo page, locate and click the "Fork" button in the top right corner:
+
+![Fork Button](img/fork-button.png?raw=true "Fork Button")
+
+This will redirect you to a copy of the codebase in your github account.
+
+* Next, locate the green "clone or download" button towards the top right corner. Click on this button and verify that it says "Clone with SSH". If not, switch it to ssh. Then click on the clipboard icon to copy the remote url:
 
 ![Copy Clone Url](img/clone-project.png?raw=true "Copy Clone Url")
 
 * Return to your shell session and clone down the project with `git clone <paste-remote-url-here>`
 * `cd` into the new project folder
-* Open up the codebase in your text editor with `atom .` or `subl .`
-* Verify you can view the blank `README.md` files in your text editor.
+* Open up the codebase in your text editor
+* Verify you can view the blank `README.md` files from your text editor
 
-Next, you are going to create a branch on github. Once you have completed your set of code changes, you will add and commit the work, then create a Pull Request (PR) for your partner to merge.
+Now you will create a branch using `git`. Once you have completed your set of code changes, you will add and commit the work, then create a Pull Request (PR) for your partner to merge.
 
 * Create a git branch off the main `master` branch. Lets name the branch "add-developer-names". Notice that the branch name contains no whitespace. Our command line can not process a name with whitespace because it will think you are passing it a new argument. To create our new branch, run `git checkout -b add-developer-names`
 * Navigate to the `README.md` and add an h1 markdown element with the title "Nitro Developer Bootcamp Students" (check out the Markdown links above to see what this looks like)
@@ -110,6 +116,6 @@ This will open up a screen that allows you to give your Pull Request (PR) a titl
 
 ![Compare Changes View](img/compare-changes.png?raw=true "Compare Changes View")
 
-Congrats! You both have not only created your first github repo, you have also created your first PR on that repo. There is only one last step. Merge the Pull Request into the master branch with one more click of a green button.
+Congrats! You both have not only created your first github repo, you have also created your first PR on that repo. There is only one last step. The original driver can merge the Pull Request into their master branch with one more green button click.
 
 ![Pull Request View](img/pull-request.png?raw=true "Pull Request View")
