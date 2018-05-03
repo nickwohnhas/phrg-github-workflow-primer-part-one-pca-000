@@ -8,7 +8,7 @@ Traditionally, pairing is done on one computer system. However, the navigator in
 
 ## The Pairing Plan
 
-This lesson and the ones that follow will pivot team member responsibilities in the middle its tasks. Whomever starts as the driver will switch and become the navigator where the lesson specifies. And vice versa.
+This lesson and the ones that follow will pivot team member responsibilities in the middle the lesson's tasks. Whomever starts as the driver will switch and become the navigator where the lesson specifies. And vice versa.
 
 So let's begin!
 
@@ -23,7 +23,7 @@ So let's begin!
 
 ## Introduction to Markdown
 
-Markup is a computer text processing, a `Markdown` is example of this. `Markdown` is a simple and widely adopted language that makes it easy for developers to apply font styling with just text. You have actually already started learning a markup language. You guessed it, `HTML` has "Markup" right in its name.
+*Markup* is another name for HTML elements which style text. It has *Markup* right in its name. `Markdown` is a plain text specification for writing text using special formatting which can be read easily on its own, or converted to *Markup* to be displayed as a normal HTML web page.
 
 So what does `Markdown` look like? Well, you are actually reading some stylized Markdown right now. Let's take a look under the hood. Open a new browser tab and open up this page once again. Now click on the github link for this lesson. Displayed below the file system in this Github view you will see this exact `README.md`. CAN YOU FIND THIS QUESTION IN THE FILE?
 
@@ -67,7 +67,7 @@ We won't be exploring Markdown in great detail. But it is important to know abou
 
 * Instantialize the new repository with `git init`
 * Add your blank `README.md` file with `git add README.md`
-* Create a commit with a message (`-m`) of "First commit"
+* Commit your work with `git commit -m "First commit"`
 * Go back to your browser and use the clipboard icon to copy your SSH remote URL. Make sure that SSH is selected. This is where the clipboard icon is:
 
 ![Copy Remote Url](img/copy-remote.png?raw=true "Copy Remote Url")
