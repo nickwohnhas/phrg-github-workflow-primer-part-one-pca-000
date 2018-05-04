@@ -8,9 +8,9 @@ Traditionally, pairing is done on one computer system. However, the navigator in
 
 ## The Pairing Plan
 
-This lesson and the ones that follow will pivot team member responsibilities in the middle the lesson's tasks. Whomever starts as the driver will switch and become the navigator where the lesson specifies. And vice versa.
+In the middle of this lesson's tasks, your responsibilities will pivot. Whomever starts as the driver will switch and become the navigator where the lesson specifies. And vice versa.
 
-So let's begin!
+Let's begin!
 
 # Getting used to Git and Github
 
