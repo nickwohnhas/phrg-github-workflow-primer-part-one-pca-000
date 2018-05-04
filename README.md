@@ -2,7 +2,7 @@
 
 ## What is a Pairing Project?
 
-[Pair programming](http://wiki.c2.com/?PairProgramming) is an [Extreme Programming Practice](http://wiki.c2.com/?ExtremeProgrammingPractice). Two developers actively collaborate on the same development effort. Traditionally pairing takes place at the same workstation with the pair sitting together. Developers can pair on individual computers when screen sharing is used. Pairing can even be remote. What matters is that the pair is communicating as they work and view the same screen.
+[Pair programming](http://wiki.c2.com/?PairProgramming) is an [Extreme Programming Practice](http://wiki.c2.com/?ExtremeProgrammingPractice). Two developers actively collaborate on the same development effort. Traditionally pairing takes place at the same workstation with the pair sitting together. Developers can pair on individual computers when screen sharing is used. Pairing can even be remote. What matters is the pair is communicating, seeing the same screen, as they work.
 
 In a pairing session the pairing team contribute complimentary efforts while collaborating. The members of the pair will have separate roles, and will likely switch roles over the course of the pairing session. Each member performs the action the other is not currently doing.
 
