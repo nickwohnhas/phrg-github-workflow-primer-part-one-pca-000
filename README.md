@@ -7,7 +7,7 @@
 In a pairing session the pairing team contribute complimentary efforts while collaborating. The members of the pair will have separate roles, and will likely switch roles over the course of the pairing session. Each member performs the action the other is not currently doing.
 
 For example:
-The developer currently driving will write a test. The other will read the test, looking for errors, and considers how to make the test pass.
+The developer currently driving will write code. The other will read code; looking for errors, consider the solution, and offer suggestions.
 
 ## The Pairing Plan
 
