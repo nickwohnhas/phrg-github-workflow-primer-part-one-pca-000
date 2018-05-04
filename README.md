@@ -9,6 +9,8 @@ In a pairing session the pairing team contribute complimentary efforts while col
 For example:
 The developer currently driving will write code. The other will read code; looking for errors, consider the solution, and offer suggestions.
 
+In the above example the developer is refered to as the "driver" and the second is the "navigator".
+
 ## The Pairing Plan
 
 In the middle of this lesson's tasks, your responsibilities will pivot. Whomever starts as the driver will switch and become the navigator where the lesson specifies. And vice versa.
