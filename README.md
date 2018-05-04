@@ -2,9 +2,14 @@
 
 ## What is a Pairing Project?
 
-In software development, the word 'pair' is short for 'pair programming', and is used to generically mean working together. The technique of pairing can vary, but there are typically 2 distinct roles. The first developer is called a *driver*. They will physically write all the code for the pair. The second person is called a *navigator*, but may have the role of an observer, a navigator, or a researcher. This person's responsibility is to guide strategy, coming up with ideas for improvements and looking out for any issues that may arise in the code's design.
+[Pair programming](http://wiki.c2.com/?PairProgramming) is an [Extreme Programming Practice](http://wiki.c2.com/?ExtremeProgrammingPractice). Two developers actively collaborate on the same development effort. Traditionally pairing takes place at the same workstation with the pair sitting together. Developers can pair on individual computers when screen sharing is used. Pairing can even be remote. What matters is that the pair is communicating as they work and view the same screen.
 
-Traditionally, pairing is done on one computer system. However, the navigator in the following lessons will mostly function as a researcher. They will help find commands and strategies that accomplish the lesson's needs. Thus, even though only the driver will be writing code, you should utilize both members' laptops.
+In a pairing session the pairing team contribute complimentary efforts while collaborating. The members of the pair will have separate roles, and will likely switch roles over the course of the pairing session. Each member performs the action the other is not currently doing.
+
+For example:
+The developer currently driving will write code. The other will read code; looking for errors, consider the solution, and offer suggestions.
+
+In the above example the developer is refered to as the "driver" and the second is the "navigator".
 
 ## The Pairing Plan
 
