@@ -1,5 +1,5 @@
 # Pairing Project No. 1
-
+Test
 ## What is a Pairing Project?
 
 [Pair programming](http://wiki.c2.com/?PairProgramming) is an [Extreme Programming Practice](http://wiki.c2.com/?ExtremeProgrammingPractice). Two developers actively collaborate on the same development effort. Traditionally pairing takes place at the same workstation with the pair sitting together. Developers can pair on individual computers when screen sharing is used. Pairing can even be remote. What matters is the pair is communicating, seeing the same screen, as they work.
